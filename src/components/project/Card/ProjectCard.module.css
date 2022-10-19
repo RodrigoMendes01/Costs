@@ -1,0 +1,76 @@
+.project_card {
+  padding: 1em;
+  border-radius: 5px;
+  width: 24%;
+  margin: .5%;
+  -webkit-box-shadow: 9px 19px 36px -16px rgba(0,0,0,0.54);
+  -moz-box-shadow: 9px 19px 36px -16px rgba(0,0,0,0.54);
+  box-shadow: 9px 19px 36px -16px rgba(0,0,0,0.54);
+}
+.project_card h4 {
+  background-color: #222;
+  color: #ffbb33;
+  padding: .4em;
+  margin-bottom: 1.3em;
+  font-size: 1.3em;
+}
+.project_card p {
+  color: #7a7a7a;
+  margin-bottom: 1em;;
+}
+.project_card p span {
+  font-weight: bold;
+}
+.category_text {
+  display: flex;
+  align-items: center;
+}
+.category_text span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 5px;
+}
+.category_text .infraestrutura {
+  background-color: #ffaebc;
+}
+.category_text .desenvolvimento {
+  background-color: #a0e7e5;
+}
+.category_text .design {
+  background-color: #b4f8c8;
+}
+.category_text .planejamento {
+  background-color: #fbe7c6;
+}
+
+.project_card_actions {
+  margin-top: 1.2em;
+  display: flex;
+  justify-content: space-evenly;
+}
+.project_card_actions a, 
+.project_card_actions button {
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
+  background-color: #222;
+  color: white;
+  font-size: .9em;
+  padding: .6em 1em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: .5s;
+}
+.project_card_actions a:hover,
+.project_card_actions button:hover {
+  color: #ffbb33;
+  -webkit-box-shadow: 10px 10px 13px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 13px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 13px -6px rgba(0,0,0,0.75);
+}

@@ -1,0 +1,12 @@
+.project_container {
+  padding-top: 2em;
+}
+.title_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+.not_found {
+  margin: 100px auto;
+  font-size: 1.5em;
+}

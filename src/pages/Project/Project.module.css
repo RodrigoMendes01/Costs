@@ -1,0 +1,49 @@
+.project_detail {
+  padding-top: 2em;
+}
+.project_detail h3,
+.project_detail h2,
+.project_detail p {
+  margin-bottom: .2em;
+}
+.project_detail h3 {
+  background-color: #222;
+  color: #ffbb33;
+  padding: .4em;
+}
+.project_detail span {
+  font-weight: bold;
+}
+
+.details_container, 
+.service_form_container {
+  -webkit-box-shadow: 10px 10px 13px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 13px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 13px -6px rgba(0,0,0,0.75);
+  margin-bottom: 1.2em;
+  padding: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.btn {
+  background-color: #222;
+  color: #fff;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: 5px;
+  cursor: pointer;
+  max-height: 40px;
+}
+.btn:hover {
+  color: #ffbb33;
+  -webkit-box-shadow: 10px 10px 13px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 13px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 13px -6px rgba(0,0,0,0.75);
+}
+.project_info {
+  margin-top: 10px;
+  width: 100%;
+}

@@ -1,0 +1,14 @@
+.link {
+  background-color: #222;
+  color: #fff;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+.link:hover {
+  color: #ffbb33;
+  -webkit-box-shadow: 10px 10px 13px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 13px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 13px -6px rgba(0,0,0,0.75);
+}
